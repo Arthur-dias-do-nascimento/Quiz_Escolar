@@ -1,0 +1,15 @@
+/* Import de coisas no geral */
+
+@import url("colors.css");
+@import url("reset.css");
+@import url("animation.css");
+
+/* Import de CSS elementos HTML */
+
+@import url("body.css");
+@import url("main.css");
+
+@import url("container-quiz-escolar.css");
+@import url("container-quiz-escolar-materias.css");
+@import url("container-quiz-escolar-questions.css");
+@import url("container-quiz-escolar-pontuacao.css");

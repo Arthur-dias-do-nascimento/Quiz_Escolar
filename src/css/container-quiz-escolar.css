@@ -1,0 +1,59 @@
+main article .quiz-escolar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main article .quiz-escolar header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main article .quiz-escolar header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+    width: 60%;
+
+    text-align: center;
+
+    line-height: 60px;
+}
+
+main article .quiz-escolar header p {
+    font-size: 1.1rem;
+    font-weight: normal;
+
+    color: var(--color-03);
+
+    margin-top: 10px;
+
+    text-align: center;
+} 
+
+main article .quiz-escolar button {
+    width: 250px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 6px;
+
+    background-color: var(--color-04);
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    color: var(--color-00);
+
+    cursor: pointer;
+
+    transition: 350ms all ease;
+}
+
+main article .quiz-escolar button:hover {
+    transform: scale(1.05);
+}

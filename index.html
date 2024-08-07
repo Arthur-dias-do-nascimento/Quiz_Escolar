@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Escolar</title>
+
+    <!-- Import link Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Import link CSS -->
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- Script JS -->
+
+    <script type="module" src="src/js/index.js" defer></script>
+
+</head>
+<body>
+
+    <main>
+        <article>
+            <section class="container quiz-escolar">
+                <header>
+                    <h1>Bem-vindo ao Quiz Escolar</h1>
+                    <p>Bem vindo ao nosso Quiz Escolar, deseja começar agora?</p>
+                </header>
+
+                <button class="btn-start-quiz-escolar">
+                    Começar
+                </button>
+            </section>
+
+            <section class="container quiz-escolar-materias hidden">
+                <header>
+                    <h1>Escolha uma materia escolar</h1>
+                    <p>Escolhar uma materia para começar o Quiz.</p>
+                </header>
+
+                <ul class="list-materias-escolares">
+                    <li>
+                        <h2>Matematica</h2>
+
+                        <button class="btn-materia" id="matematica">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Português</h2>
+
+                        <button class="btn-materia" id="portugues">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Geografia</h2>
+
+                        <button class="btn-materia" id="geografia">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Historia</h2>
+
+                        <button class="btn-materia" id="historia">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Ciências</h2>
+
+                        <button class="btn-materia" id="ciencias">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Inglês</h2>
+
+                        <button class="btn-materia" id="ingles">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Arte</h2>
+
+                        <button class="btn-materia" id="arte">
+                            Escolher
+                        </button>
+                    </li>
+
+                    <li>
+                        <h2>Educação Finaceira</h2>
+
+                        <button class="btn-materia" id="educacao_finaceira">
+                            Escolher
+                        </button>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="container quiz-escolar-questions hidden">
+                <header>
+                    <div>
+                        <span id="number-question"></span>
+                    </div>
+
+                    <p id="question"></p>
+                </header>
+
+                <ul class="list-question">
+                    <li class="questions">
+                        <label for="question">
+                            <input type="radio" name="question" id="input-radio-question-01" checked>
+                            <span class="resposta"></span>
+                        </label>
+                    </li>
+
+                    <li class="questions">
+                        <label for="question">
+                            <input type="radio" name="question" id="input-radio-question-02">
+                            <span class="resposta"></span>
+                        </label>
+                    </li>
+
+                    <li class="questions">
+                        <label for="question">
+                            <input type="radio" name="question" id="input-radio-question-03">
+                            <span class="resposta"></span>
+                        </label>
+                    </li>
+
+                    <li class="questions">
+                        <label for="question">
+                            <input type="radio" name="question" id="input-radio-question-04">
+                            <span class="resposta"></span>
+                        </label>
+                    </li>
+                </ul>
+
+                <section>
+                    <button class="btn-confirm-question btn-hidden">
+                        Confirmar
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+
+                    <button class="btn-next-question btn-hidden">
+                        Proxima Questão
+                    </button>
+                </section>
+            </section>
+
+            <section class="container quiz-escolar-pontuacao hidden">
+                <header>
+                    <h1 id="result-pontuacao"></h1>
+
+                    <span id="pontuacao"></span>
+                </header>
+
+                <section>
+                    <p id="messagem"></p>
+                </section>
+
+                <button class="btn-repeat-quiz-escolar">
+                    Refazer Quiz
+                </button>
+            </section>
+        </article>
+    </main>
+
+</body>
+</html>

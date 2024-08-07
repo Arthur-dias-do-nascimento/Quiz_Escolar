@@ -1,0 +1,47 @@
+main article .quiz-escolar-pontuacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main article .quiz-escolar-pontuacao header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main article .quiz-escolar-pontuacao header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+main article .quiz-escolar-pontuacao header span {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+main article .quiz-escolar-pontuacao section p {
+    font-size: 1.2rem;
+}
+
+main article .quiz-escolar-pontuacao button {
+    width: 300px;
+    height: 40px;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: var(--color-09);
+    color: var(--color-00);
+
+    cursor: pointer;
+}

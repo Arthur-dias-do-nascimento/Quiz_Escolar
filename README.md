@@ -9,5 +9,5 @@ Um projeto pessoal meu que se chama Quiz Escolar. Esse projeto é um Quiz mas co
  <li>JavaScript</li>
 </ul>
 
-# URL do projeto
+## URL do projeto
 <strong>https://arthur-dias-do-nascimento.github.io/Quiz_Escolar/</strong>

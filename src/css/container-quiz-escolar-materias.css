@@ -44,6 +44,8 @@ main article .quiz-escolar-materias ul {
     
     align-items: center;
     justify-content: center;
+
+    overflow-y: scroll;
 }
 
 main article .quiz-escolar-materias ul li {
